@@ -76,6 +76,21 @@ This project is licensed under the [MIT License](LICENSE).
 For any questions or suggestions, feel free to reach out:
 - **Himanshu**: [Himanshu](https://github.com/whitedevil9911)
 
+  ## Project Admin
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/whitedevil9911"><img src="https://avatars.githubusercontent.com/u/132771107?v=4" width="100px;" alt=""/><br /><sub><b>Himanshu kumar</b></sub></a></td>
+  </tr>
+</table>
+
+## Project Contributors
+<table align="center">
+<tr>
+<td>
+<a href="https://github.com/whitedevil9911/Hacktoberfest-2k24/graphs/contributors" align="center">
+  <img src="https://contrib.rocks/image?repo=whitedevil9911/Hacktoberfest-2k24" /> 
+</a>
 
 Happy Hacking! 🎉
 
