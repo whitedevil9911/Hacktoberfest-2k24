@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Log-in</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="log_img">
+      <img class="img2" src="images/upload_img_30909939_08_15_2024_09_03_55_312354_5514004089050747606.jpeg">
+    </div>
+    <div class="log_form">
+      <form action="Login_page/welcome.html" method="post">
+        <div class="forms">
+          <img class="img" src="images/login-image.jpeg">
+          <div class="form1" style="height: 230px;">
+            <h3>SIGN IN</h3>
+            <div class="name_det">
+              <label id="uname" for="username">Username</label><br>
+              <input class="in1" type="text" id="username" name="username" onclick="carry()"><br>
+            </div>
+            <div class="pass_det">
+              <label id="pass" for="password">Password</label><br>
+              <input class="in1" type="text" id="password" name="password" onclick="carry2()"><br> 
+            </div>
+            <input class="in2" style="margin-left: 60px; margin-top: 20px; width: 60px; height: 28px;" type="submit" value="Login" onclick="window.open('Login_page/welcome.html', '_blank');">
+          </div>
+          <div class="links">
+            <a style="color: white;" href="#">Already have an Acc?</a>
+            <a style="color: white;" href="#">Signupf</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    function carry() {
+      const change = document.getElementById("uname");
+      change.style.position = "absolute";
+      change.style.transform = "translate(-10px,-34px)"; 
+    }
+    function carry2() {
+      const change = document.getElementById("pass");
+      change.style.position = "absolute";
+      change.style.transform = "translate(-10px,-34px)"; 
+    }
+  </script>
+</body>
+</html>
